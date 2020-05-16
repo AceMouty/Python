@@ -21,7 +21,20 @@ def main():
     # we can also add in a new line with \n
     my_str = "We will add in a new line\nand look a that, we are on a new line"
     print(my_str)
+    print()
 
+    # String formatting, allows us to inject variables
+    # into our strings using what is known as an f string
+    # resource: https://realpython.com/python-string-formatting/
+    guess = 8
+    print(f"your guess was {guess}\n")
+    # we can also perform opperations / math in here
+    print(f"One number above your guess would be {guess + 1}\n")
+
+    # we are also able to index a string in the same way that we are
+    # able to do with a list using [index]
+    f_name = "John"
+    print(f_name[0])  # -> will give us J
 
 if __name__ == "__main__":
     main()
