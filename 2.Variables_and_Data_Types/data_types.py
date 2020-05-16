@@ -35,7 +35,7 @@ def main():
     print(myList[2])
     print()
 
-    # dict: storing data with key / value pairs. This is
+    # dictionary (dict): storing data with key / value pairs. This is
     # in a way storing a collection of different variables
     # just like in a list we can store ANY kind of data in here
     # we instead access its data via a key / name and in return
@@ -48,7 +48,7 @@ def main():
     print(myDict["name"])
     print(myDict["age"])
     print(myDict["city"])
-
+    
 
 if __name__ == "__main__":
     main()
