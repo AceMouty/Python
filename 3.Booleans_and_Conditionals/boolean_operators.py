@@ -28,6 +28,10 @@ def main():
     if not isWeekend:
         print("Its not the weekend get to work!")
 
+    isBirthday = True
+    if not isBirthday:
+        print("Its anoher normal day")
+
 
 if __name__ == "__main__":
     main()
