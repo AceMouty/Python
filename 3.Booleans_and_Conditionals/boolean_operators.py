@@ -2,8 +2,7 @@
 
 def main():
 
-    # check for an age between 2 and 8
-
+    # boolean operators or / and / not
     # and op: both the left and right side need to resolve to
     #   True, if either side is false the entire evaluation is false
     age = 5
@@ -21,6 +20,13 @@ def main():
 
     if city == "austin" or city == "dallas":
         print("You live in Texas")
+
+    # not op: reverse logic, turns false to true
+    # and true to false
+
+    isWeekend = False
+    if not isWeekend:
+        print("Its not the weekend get to work!")
 
 
 if __name__ == "__main__":
