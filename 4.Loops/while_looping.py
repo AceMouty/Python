@@ -23,3 +23,15 @@ num = 1
 while num < 11:
     print(num)
     num += 1
+
+# break: break will allow us to brek
+# out of a loop.
+
+while True:
+    print("what do you want")
+    userInput = input()
+
+    if userInput[0].lower() == 'q':
+        break
+
+    print("Whats that I didnt understand?")
